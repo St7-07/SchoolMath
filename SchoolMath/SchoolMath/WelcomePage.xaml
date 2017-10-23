@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SchoolMath.WelcomePage"
+             Title="Bienvenido"
+             NavigationPage.HasNavigationBar="False"
+             >
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">
+
+        <Label Text="Matemapp" TextColor="Aqua" FontSize="Large"/>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center"  VerticalOptions="Center" Spacing="20">
+            <Button Text="Comenzar" Clicked="Start" BorderColor="Blue" BackgroundColor="White" TextColor="Black"/>
+            <Button Text="Salir" Clicked="Exit" BorderColor="Blue" BackgroundColor="White" TextColor="Black"/>
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

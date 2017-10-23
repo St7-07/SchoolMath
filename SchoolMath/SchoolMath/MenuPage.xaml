@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SchoolMath.MenuPage"
+             Padding="0,20,0,0"
+             Title="Menu">
+
+    <Grid Padding="20,20,20,20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image x:Name="img_1" Grid.Row="0" Grid.Column="0">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="FirstGrade_Tapped"/>
+            </Image.GestureRecognizers>
+        </Image>
+        <Image x:Name="img_2" Grid.Row="1" Grid.Column="1">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="SecondGrade_Tapped"/>
+            </Image.GestureRecognizers>
+        </Image>
+        <Image x:Name="img_3" Grid.Row="2" Grid.Column="0">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="ThirdGrade_Tapped"/>
+            </Image.GestureRecognizers>
+        </Image>
+    </Grid>
+    
+    
+</ContentPage>

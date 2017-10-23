@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SchoolMath.QuestionsPage"
+             xmlns:pages="clr-namespace:SchoolMath;assembly=SchoolMath"
+             Title="Trivia Sumas">
+
+    <ContentPage Title="Tab 1">
+        <StackLayout Margin="30,20,20,20" Spacing="10">
+            <Label Text="Primera Pregunta lore ipsum s fue la grui itr io msa nza /n dsdaon adasdada /n  matbis m sd"  
+             HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" Margin="5" />
+            <Frame OutlineColor="Green" Padding="5">
+                <Label Text="Respuesta 1"/>
+            </Frame>
+            <Frame OutlineColor="Green" HasShadow="False" BackgroundColor="Aqua" Opacity="0.2" Padding="5">
+                <Label Text="Respuesta 1"/>
+            </Frame>
+            <Frame OutlineColor="Green" Padding="5">
+                <Label Text="Respuesta 1"/>
+            </Frame>
+
+            <Button BorderColor="Aqua" BackgroundColor="Green" Opacity="0.40" HorizontalOptions="EndAndExpand" Text="Responder" TextColor="White"></Button>
+        </StackLayout>
+
+
+    </ContentPage>
+
+    <ContentPage Title="Tab 2">
+        <StackLayout Margin="30,20,20,20" Spacing="10">
+            <Label Text="Primera Pregunta lore ipsum s fue la grui itr io msa nza /n dsdaon adasdada /n  matbis m sd"  
+             HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" Margin="5" />
+            <Frame OutlineColor="Green" Padding="5">
+                <Label Text="Respuesta 1"/>
+            </Frame>
+            <Frame OutlineColor="Green" HasShadow="False" BackgroundColor="Aqua" Opacity="0.2" Padding="5">
+                <Label Text="Respuesta 1"/>
+            </Frame>
+            <Frame OutlineColor="Green" Padding="5">
+                <Label Text="Respuesta 1"/>
+            </Frame>
+
+            <Button BorderColor="Aqua" BackgroundColor="Green" Opacity="0.40" HorizontalOptions="EndAndExpand" Text="Responder"></Button>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Tab 3">
+        <StackLayout Margin="30,20,20,20" Spacing="10">
+            <Label Text="Primera Pregunta lore ipsum s fue la grui itr io msa nza /n dsdaon adasdada /n  matbis m sd"  
+             HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" Margin="5" />
+            <Frame OutlineColor="Green" Padding="5">
+                <Label Text="Respuesta 1"/>
+            </Frame>
+            <Frame OutlineColor="Green" HasShadow="False" BackgroundColor="Aqua" Opacity="0.2" Padding="5">
+                <Label Text="Respuesta 1"/>
+            </Frame>
+            <Frame OutlineColor="Green" Padding="5">
+                <Label Text="Respuesta 1"/>
+            </Frame>
+
+            <Button BorderColor="Aqua" BackgroundColor="Green" Opacity="0.40" HorizontalOptions="EndAndExpand" Text="Responder"></Button>
+        </StackLayout>
+    </ContentPage>
+    
+</TabbedPage>
