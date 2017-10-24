@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace SchoolMath
+namespace SchoolMath.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class FirstGrade : ContentPage
@@ -31,7 +31,7 @@ namespace SchoolMath
 
         async private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new QuestionsPage());
+            await Navigation.PushAsync(new TopicPage());
         }
     }
 }

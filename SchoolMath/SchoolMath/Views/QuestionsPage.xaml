@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SchoolMath.QuestionsPage"
+             x:Class="SchoolMath.Views.QuestionsPage"
              xmlns:pages="clr-namespace:SchoolMath;assembly=SchoolMath"
              Title="Trivia Sumas">
 
@@ -19,7 +19,9 @@
                 <Label Text="Respuesta 1"/>
             </Frame>
 
-            <Button BorderColor="Aqua" BackgroundColor="Green" Opacity="0.40" HorizontalOptions="EndAndExpand" Text="Responder" TextColor="White"></Button>
+            <Button BorderColor="Aqua" BackgroundColor="Green" Opacity="0.40" 
+                    HorizontalOptions="EndAndExpand" Text="Responder" 
+                    TextColor="White" Clicked="Button_Clicked"></Button>
         </StackLayout>
 
 
